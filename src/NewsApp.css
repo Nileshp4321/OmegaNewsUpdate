@@ -1,0 +1,18 @@
+/* NewsApp.css */
+.news-app {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .articles-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .article {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
